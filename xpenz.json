@@ -1,0 +1,46 @@
+expense: {
+	"20131003": [
+		{
+			"exp_uuid": {
+				"category": "cat_uuid",
+				"amount": 8.98,
+				"description": "",
+
+			}
+		},
+		{
+			"exp_uuid": {
+				"category": "cat_uuid",
+				"amount": 8.98,
+				"description": "",
+
+			}
+		},
+	],
+	"20131002": [
+
+	]
+}
+
+income:{
+	"20131001": [
+		{
+			"inc_uuid": {
+				"category": cat_uuid,
+				"amount": 3000,
+				"description": "",
+			}
+		}
+	]
+}
+
+category:{
+	"cat_uuid": {
+		"type": "income",
+		"name": "category name"
+	},
+	"cat_uuid": {
+		"type": "expense",
+		"name": "category name"
+	},
+}
